@@ -1,0 +1,19 @@
+volumes:
+  lakwar_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./lakwar_data
+      o: bind
+  data_smt:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./smt
+      o: bind
+  flink_lib:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./flink_lib
+      o: bind

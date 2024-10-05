@@ -1,0 +1,3 @@
+networks:
+  lakwar-network:
+    driver: bridge
